@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91b5b2f19e.js" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  ></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('.row').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="side">
+        <ul class="head">
+            <h1 class="logo">Lorem </h1>
+            <h1 id="vanish" class="logo">Ipsum</h1>
+                <i id="icon" class="fas fa-align-left"></i>
+                <i id="cart" class="fas fa-shopping-cart"></i>
+        </ul>
+    </header>
+    <br>
+<div class="row">
+    <nav>
+        <ul>
+            <li><s>About</s></li>
+            <li>Services</li>
+            <li>Cuisine</li>
+            <li>Gallery</li>
+            <li>Contact</li>
+            <li>Book</li>
+            <li id="btn"><button class="btn"><p>Cart</p></button></li>
+        </ul>
+    </nav>
+</div>
+<div class="wrapper">
+    <div class="main">
+        <h2 class="br">What are you <br> having for Lunch?</h2>
+    </div>
+    <!-- <div class="main">
+        <h1>What would you like <span class="typed"></span></h1>
+    </div> -->
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <img src="https://cdn.pixabay.com/photo/2016/08/23/08/53/tacos-1613795_1280.jpg" alt="Mexican Taco">
+            <p class="p">
+                Mexican Taco
+            </p>
+        </div>
+        <div class="flex-item-left"><img src="https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717_1280.jpg" alt="Pizza">
+            <p class="p">
+                Farmhouse Pizza
+            </p>
+        </div>
+        <div class="flex-item-left"><img src="https://cdn.pixabay.com/photo/2021/01/22/04/24/sandwich-5939093_1280.jpg" alt="ChikenBurger">
+            <p class="p">
+                Chicken Burger
+            </p> 
+        </div> 
+        <div class="flex-item-left"><img src="https://cdn.pixabay.com/photo/2017/08/02/12/21/nacho-2571340_1280.jpg" alt="Nachos">
+            <p class="p">
+                Nachos
+            </p>
+        </div> 
+        <div id="vanish" class="flex-item-left"><img src="https://cdn.pixabay.com/photo/2017/08/02/12/21/nacho-2571340_1280.jpg" alt="Nachos">
+            <p class="p">
+                Hakka Noddles
+            </p>
+        </div> 
+    </div>
+    <aside class="aside1">
+        <p class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis reprehenderit, cum reiciendis amet animi maiores fugit ullam facilis, sequi incidunt placeat doloribus aut itaque debitis?</p>
+    </aside>
+</div>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".flex-item-left"),{
+		max: 20,
+		speed: 1000
+    });
+</script>
+</body>
+</html>
