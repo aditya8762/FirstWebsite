@@ -213,11 +213,14 @@ nav li:hover{
         #icon{
             display: none;
         }
+        #cart{
+            display: none;
+        }
         .flex-container div{
             width: 100%;
         }
         .main{
-            font-size: 25px;
+            font-size: 22px;
         }
     }
 }
