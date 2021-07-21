@@ -154,6 +154,9 @@ nav li:hover{
     .flex-container div{
         width: 16.68%;
     }
+    #cart{
+        display: none;
+    }
 }
 
 @media (max-width:1050px){
