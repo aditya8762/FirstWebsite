@@ -178,6 +178,9 @@ nav li:hover{
     .flex-container div{
         width: 44%;
     }
+    li{
+        padding-left: 0px;
+    }
    .row{
         float: none;
         display: none;
