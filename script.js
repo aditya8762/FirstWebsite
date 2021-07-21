@@ -1,6 +1,6 @@
 $(function(){
 	$(".typed").typed({
-		strings: ["Pizza.", "Burger.", "Noodles."],
+		strings: ["Mexican Tacos.","Farmhouse Pizza.", "Chicken Burger.", "Loaded Nachos."],
 		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 		stringsElement: null,
 		// typing speed
