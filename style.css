@@ -1,7 +1,7 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+*{
+    margin: 1px;
+    /* padding: 0; */
+}
 .wrapper{
     display: flex;
     flex-flow: row wrap;
@@ -62,13 +62,13 @@
 
 #icon{
     float: left;
-    padding-top: 55px;
+    padding-top: 25px;
     font-size: 30px;
     display: none;
 }
 #cart{
     float:right;
-    padding-top: 60px;
+    padding-top: 25px;
     font-size: 30px;
     padding-right: 3rem;
     display: none;
@@ -79,7 +79,7 @@
 .card-title{
     position: relative;
     text-align: left;
-    top:40px;
+    top:10px;
     font-size: 20px;
 }
 .card-title::after {
