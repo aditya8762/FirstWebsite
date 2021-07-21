@@ -50,7 +50,7 @@
     margin: 20px;
     box-sizing: border-box;
     padding-top: 20px;
-    height: 280px;
+    height: 250px;
     font-size: 30px;
     border-radius: 2rem;
     border-top: solid rgba(0,0,0,0.1);
@@ -105,13 +105,13 @@
     border: none;
     color:white;
     font-size: 15px;
-    height: 100%;
-    width: 80%;
+    height: 40px;
+    width: 80px;
     cursor: pointer;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 #btn{
-    padding-left: 22px;
+    padding-left: 14px;
 }
 ul{
     line-height:70px;
@@ -121,7 +121,7 @@ ul{
 li{
     border-radius: 25px;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 32px;
 }
 nav li:hover{
     background-color: rgba(102, 94, 94, 0.3);
