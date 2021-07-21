@@ -55,6 +55,7 @@
     border-radius: 2rem;
     border-top: solid rgba(0,0,0,0.1);
     box-shadow: 0px 20px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 .flex-container div{
     width: 16.5%;
@@ -90,8 +91,8 @@
     bottom: -10px;
     width: 70%;
     background: hsla(221, 15%, 22%, 0.835);
-    transform-origin: left;
-    transition: transform 500ms ease;
+    /* transform-origin: left;
+    transition: transform 500ms ease; */
 }
 .card-title:hover{
     cursor: pointer;
