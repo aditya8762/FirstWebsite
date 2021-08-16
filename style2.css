@@ -63,7 +63,7 @@ table{
     width: 100%;
     text-align: center;
     border-spacing: 12px;
-    border: solid chartreuse;
+    /* border: solid chartreuse; */
 }
 table caption{
     text-decoration: underline;
