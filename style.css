@@ -16,9 +16,23 @@
     width:100%;
 }
 .head{
-    font-size: 30px;
+    font-size: 40px;
+    /* line-height: 40px; */
     font-weight: bold;
     text-align: start;
+}
+.logo{
+    display: inline-block;
+    font-size: 50px;
+}
+.green{
+    display: inline;
+    float: right;
+    padding-right: 20px;
+}
+#blur{
+    opacity: 0.25;
+    font-size: 25px;
 }
 .main{
     text-align: left;
@@ -61,19 +75,16 @@
 
 #icon{
     float: left;
-    padding-top: 25px;
+    padding-top: 20px;
     font-size: 30px;
     display: none;
 }
 #cart{
     float:right;
-    padding-top: 25px;
+    padding-top: 20px;
     font-size: 30px;
     padding-right: 3rem;
     display: none;
-}
-.logo{
-    display: inline-block;
 }
 .card-title{
     position: relative;
@@ -208,7 +219,7 @@ nav li:hover{
             display: none;
         }
         .head{
-            font-size: 25px;
+            font-size: 40px;
         }
 
     }
@@ -223,7 +234,7 @@ nav li:hover{
             font-size: 30px;
         }
         .head{
-            font-size: 25px;
+            font-size: 40px;
         }
     }
     @media (max-width:260px) {
@@ -240,7 +251,7 @@ nav li:hover{
             font-size: 22px;
         }
         .head{
-            font-size: 25px;
+            font-size: 40px;
         }
     }
 }
